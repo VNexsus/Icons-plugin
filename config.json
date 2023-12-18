@@ -1,0 +1,48 @@
+{
+    "name" : "Значки",
+	"nameLocale": {
+			"ru": "Значки",
+			"en": "Icons"
+	},
+    "guid" : "asc.{ACB0AC4A-750F-D8A6-28EF-8307B8164035}",
+	"version": "1.0",
+    "variations" : [
+        {
+            "description" : "Настройка и вставка значков в докуметы",
+			"descriptionLocale" : {
+					"ru": "Настройка и вставка значков в докуметы",
+					"en": "Cusomize and insert and  symbols in documents"
+			},
+            "url"         : "index.html",
+            "icons": [ "resources/img/icon.png", "resources/img/icon@2x.png" ],
+			"icons2": [
+				{
+					"style" : "light",
+					"100%": {"normal": "resources/img/icon.png"},
+					"125%": {"normal": "resources/img/icon@1.25x.png"},
+					"150%": {"normal": "resources/img/icon@1.5x.png"},
+					"175%": {"normal": "resources/img/icon@1.75x.png"},
+					"200%": {"normal": "resources/img/icon@2x.png"}
+				},
+				{
+					"style" : "dark",
+					"100%": {"normal": "resources/img/icon.png"},
+					"125%": {"normal": "resources/img/icon@1.25x.png"},
+					"150%": {"normal": "resources/img/icon@1.5x.png"},
+					"175%": {"normal": "resources/img/icon@1.75x.png"},
+					"200%": {"normal": "resources/img/icon@2x.png"}
+				}
+			],
+            "isViewer"        : true,
+            "EditorsSupport"  : ["word", "cell", "slide"],
+            "isVisual"        : true,
+            "isModal"         : true,
+            "isInsideMode"    : false,
+            "initDataType"    : "",
+            "initData"        : "",
+            "isUpdateOleOnResize" : false,
+			"size": [ 660, 394 ],
+            "buttons"         : []
+        }
+    ]
+}
